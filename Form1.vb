@@ -2,11 +2,11 @@
     Dim num, cuenta, posicionMayor As Integer
     Dim contadorPar As Integer = 0
     Dim mayor As Integer = 0
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         num = TextBox1.Text
         If num Mod 2 = 0 Then
             contadorPar += 1
         End If
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If num > mayor Then
             mayor = num
             posicionMayor = cuenta
